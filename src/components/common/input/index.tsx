@@ -7,8 +7,8 @@ interface IProps extends React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLI
 }
 
 export const SearchInput: React.FC<IProps> = ({icon, className, ...props}) => {
-  return <div className={styles.root}>
-    <input className={classNames(styles.input, className, {[styles._icon]: !!icon})} {...props}/>
+  return <div className={classNames(styles.root, className)}>
+    <input className={classNames(styles.input, {[styles._icon]: !!icon})} {...props}/>
     {icon && <img className={styles.icon} src={icon} alt={'icon'}/>}
   </div>
 }

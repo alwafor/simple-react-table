@@ -1,26 +1,30 @@
 .root {
   position: relative;
-}
 
-.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   background-color: var(--color-secondary);
-  color: var(--color-gray);
-
-  text-indent: 26px;
 
   padding: 18px;
 }
 
+.input {
+  background-color: transparent;
+  text-indent: 26px;
+
+  color: var(--color-gray);
+
+  flex: 1 1 100%;
+}
+
 .input._icon {
-  padding-right: 54px;
+  flex: 0 1 85%;
 }
 
 .icon {
-  position: absolute;
-
-  top: 50%;
-  transform: translateY(-50%);
-  right: 24px;
+  flex: 0 1 7%;
 
   width: 20px;
   height: 20px;
