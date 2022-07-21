@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-react-table/static/css/main.60ad6395.css",
+    "main.js": "/simple-react-table/static/js/main.9115a1dd.js",
+    "index.html": "/simple-react-table/index.html",
+    "static/media/icon-search.svg": "/simple-react-table/static/media/icon-search.42a69f6c4dc27bbf7c00efe96314acef.svg",
+    "static/media/icon-downarrow.svg": "/simple-react-table/static/media/icon-downarrow.4320ae5d44313dde36c3d34278b180ec.svg",
+    "main.60ad6395.css.map": "/simple-react-table/static/css/main.60ad6395.css.map",
+    "main.9115a1dd.js.map": "/simple-react-table/static/js/main.9115a1dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60ad6395.css",
+    "static/js/main.9115a1dd.js"
+  ]
+}
