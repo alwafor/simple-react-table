@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --color-primary: #474955;
+  --color-secondary: #5A5C66;
+
+  --color-green: #7EBC3C;
+  --color-gray: #B2B7BF;
+}

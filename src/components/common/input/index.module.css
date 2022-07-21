@@ -1,0 +1,27 @@
+.root {
+  position: relative;
+}
+
+.input {
+  background-color: var(--color-secondary);
+  color: var(--color-gray);
+
+  text-indent: 26px;
+
+  padding: 18px;
+}
+
+.input._icon {
+  padding-right: 54px;
+}
+
+.icon {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+  right: 24px;
+
+  width: 20px;
+  height: 20px;
+}
