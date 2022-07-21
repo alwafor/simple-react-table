@@ -1,4 +1,40 @@
 .root {
-  display: flex;
+  margin-top: 16px;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+
+  font-size: 24px;
+  font-weight: 500;
+
+  background-color: transparent;
+}
+
+.pageNumbersWrapper {
+
+}
+
+.pageNumberButton {
+  cursor: pointer;
+
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+
+  background-color: transparent;
+
+  padding: 0 10px;
+}
+
+.pageNumberButton:hover {
+  text-decoration: underline;
+}
+
+.activePageNumber {
+  color: var(--color-green);
 }

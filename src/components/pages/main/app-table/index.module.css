@@ -2,7 +2,6 @@
   margin-top: 15px;
 
   max-width: 1077px;
-  /*width: 1077px;*/
 }
 
 .root thead {
@@ -14,6 +13,28 @@
   line-height: 56px;
   border: none;
   text-align: center;
+
+  white-space: nowrap;
+}
+
+.root thead td button {
+  cursor: pointer;
+
+  border: none;
+
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 56px;
+
+  background-color: transparent;
+  color: white;
+
+  margin-right: 28px;
+}
+
+.root thead td button:focus, .root thead td button:hover {
+  color: var(--color-green);
 }
 
 .root td {
@@ -21,14 +42,23 @@
   border: 1px solid var(--color-gray-2);
   height: 56px;
   vertical-align: middle;
+
+  font-size: 13px;
 }
 
 .root td:nth-child(1) {
   width: 10%;
   text-align: center;
-
 }
 
-.root tr {
+.root td:nth-child(2) {
+  width: 30%;
+}
 
+.root td:nth-child(3) {
+  width: 60%;
+}
+
+.invert {
+  transform: rotateZ(180deg);
 }

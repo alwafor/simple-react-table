@@ -4,5 +4,9 @@
 }
 
 .searchInput {
-  width: 631px;
+  max-width: 631px;
+}
+
+.notification {
+  margin-top: 10px;
 }
