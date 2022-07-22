@@ -7,9 +7,11 @@ import iconSearch from './assets/images/icons/icon-search.svg'
 import {AppTable} from './components/pages/main/app-table'
 import {AppPagination} from './components/pages/main/app-pagination'
 
+
+export type IHeadRow = 'id' | 'title' | 'body'
 // asc means ascending
 export interface ISortInfo {
-  name: 'id' | 'title' | 'body'
+  name: IHeadRow
   asc: boolean
 }
 
